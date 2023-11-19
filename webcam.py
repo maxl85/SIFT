@@ -54,7 +54,7 @@ while True:
     
     cv2.imshow('result', QueryImgBGR)
     
-    if cv2.waitKey(10) == ord('q'):
+    if cv2.waitKey(1) == ord('q'):
         break
 
 cam.release()
